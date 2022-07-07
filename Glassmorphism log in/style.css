@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+}
+.card {
+  height: 370px;
+  width: 400px;
+  background: linear-gradient(
+    150.46deg,
+    rgba(255, 255, 255, 0.5) -12.61%,
+    rgba(255, 255, 255, 0.25) 110.1%
+  );
+  padding: 20px;
+  border-radius: 7px;
+}
+.card h2 {
+  color: purple;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.card .inputBox {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.card .inputBox input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: online;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 15px purple;
+  background-color: #e899dc;
+  background-image: linear-gradient(315deg, #e899dc 0%, #d387ab 74%);
+}
+.card .btn {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  color: #000;
+  width: 140px;
+  font-size: 16px;
+  height: 35px;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  border-radius: 35px;
+}

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+}
+body {
+  background: #262626;
+}
+.container {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-40%, 40%);
+}
+.container img {
+  width: 80%;
+}
+.container img:hover {
+  filter: blur(9px);
+}

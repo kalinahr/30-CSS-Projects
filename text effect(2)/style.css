@@ -1,0 +1,38 @@
+section {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 8rem;
+  background-color: white;
+}
+
+span {
+  display: inline-block;
+}
+
+.navbar span {
+  transform: rotate(-22.5deg) skew(-22.5deg);
+  margin: 80px 0;
+  padding: 0 25px; /* to extend the border past the text */
+  color: yellow;
+  font-family: "Fredoka One", sans-serif;
+  text-shadow: 0.1px white;
+  border: 2px solid yellow;
+  background-color: black;
+  text-shadow: -6px 6px 0 #d8347f, -5px 5px 0 #d8347f, -4px 4px 0 #d8347f,
+    -3px 3px 0 #d8347f, -2px 2px 0 #d8347f, -1px 1px 0 #d8347f,
+    -2px 5px 15px #000;
+}
+
+.skim span {
+  transform: rotate(22.5deg) skew(22.5deg);
+  margin: 80px 0;
+  padding: 0 25px; /* to extend the border past the text */
+  color: purple;
+  font-family: "Fredoka One", sans-serif;
+  text-shadow: 0.1px white;
+  border: 2px solid purple;
+  background-color: black;
+  text-shadow: -6px 6px 0 grey, -5px 5px 0 grey, -4px 4px 0 grey,
+    -3px 3px 0 grey, -2px 2px 0 grey, -1px 1px 0 grey, -2px 5px 15px grey;
+}

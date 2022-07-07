@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: #000;
+}
+h2 {
+  font-size: 6em;
+  color: #333;
+  font-weight: 500;
+}
+h2 span {
+  animation: animate 1s linear infinite;
+}
+@keyframes animate {
+  0%,
+  80% {
+    color: #333;
+    box-shadow: none;
+  }
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+      0 0 120px #fff, 0 0 160px #fff;
+  }
+}

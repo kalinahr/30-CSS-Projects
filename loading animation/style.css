@@ -1,0 +1,55 @@
+:root {
+  --yellow: #feb60a;
+  --red: #ff0062;
+  --grey: grey;
+  --violet: #da00f7;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: cemter;
+  height: 100vh;
+  background-color: black;
+}
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div > div {
+  width: 2vw;
+  height: 4vh;
+  margin: 1vw;
+  animation: bounce 1.5s 0.5s linear infinite;
+}
+.yellow {
+  background-color: var(--yellow);
+}
+
+.red {
+  background-color: var(--red);
+  animation-delay: 0.1s;
+}
+.grey {
+  background-color: var(--grey);
+  animation-delay: 0.3s;
+}
+.violet {
+  background-color: var(--violet);
+  animation-delay: 0.3s;
+}
+@keyframes bounce {
+  0%,
+  50%,
+  100% {
+    transform: scale(0.7);
+  }
+  25% {
+    transform: scale(0.6);
+  }
+  75% {
+    transform: scale(1.4);
+  }
+}
